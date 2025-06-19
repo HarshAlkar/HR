@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'screens/dashboard/dashboard_screen.dart';
-import 'screens/reset_password/reset_password_screen.dart';
+import 'screens/dashboard_screen.dart';
+import 'screens/reset_password_screen.dart';
 import 'screens/leaves/apply_leave_screen.dart';
 import 'screens/leaves/faculty_leave_approval_screen.dart';
 import 'screens/leaves/faculty_leave_balance_screen.dart';

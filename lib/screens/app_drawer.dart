@@ -13,11 +13,10 @@ import 'package:hr/screens/add/add_faculty_screen.dart';
 import 'package:hr/screens/add/add_holiday_screen.dart';
 import 'package:hr/screens/add/add_department_screen.dart';
 import 'package:hr/screens/add/add_designation_screen.dart';
-import 'package:hr/screens/reset_password/reset_password_screen.dart';
+import 'package:hr/screens/reset_password_screen.dart';
 import 'package:hr/screens/reports/report_tab.dart';
 import 'package:hr/screens/faculty/approve_profile_change_screen.dart';
 import 'package:hr/screens/faculty/update_hod_screen.dart';
-import '../screens/dashboard/dashboard_screen.dart';
 
 class AppDrawer extends StatefulWidget {
   const AppDrawer({super.key});
@@ -249,7 +248,8 @@ class _AppDrawerState extends State<AppDrawer> {
                 _buildDrawerItem(
                   title: 'Dashboard',
                   icon: Icons.dashboard_rounded,
-                  destination: const DashboardScreen(),
+                  destination:
+                      Container(), // Placeholder - will be handled by main navigation
                 ),
 
                 const Padding(
